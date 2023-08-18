@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  gap: 1rem;
+  margin: 0.7rem auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 900px;
+  height: 40px;
+}
+
+.filterdiv {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterdiv p {
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer input {
+  width: 45%;
+  border: none;
+  outline: none;
+  border-right: 1px solid grey;
+}
